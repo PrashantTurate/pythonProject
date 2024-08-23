@@ -6,7 +6,7 @@ num = int(input("Enter the number of digits that you want in the Fibonacci seque
 a = 0
 b = 1
 if num <= 0:
-    print("INVALID INPUT")
+    print("Invalid Input")
 else:
     print("Fibonacci sequence up to the given terms will be: ")
     print(a, b, end=" ")
