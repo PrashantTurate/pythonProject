@@ -3,8 +3,8 @@ import math
 def sum_three(a,b,c):
    return a+b+c
 
-#p = lambda a,b,c: a+b+c
-#print(op(1,2,3))
+op = lambda a,b,c: a+b+c
+print(op(1,2,3))
 
 def give_me_power(num):
     return math.pow(num,2)
@@ -24,5 +24,5 @@ def find_odd_even(num):
     else:
         print(num, "is an even number")
 
-find_odd_even(4)
+find_odd_even(27)
 
