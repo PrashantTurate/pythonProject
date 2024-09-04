@@ -10,8 +10,8 @@ class PortalLoginPage:
         else:
             print("Login failed")
 
-email = input("Enter your email address: ")
-password = input("Enter your password: ")
+email = input("Enter your email address: \n")
+password = input("Enter your password: \n")
 
 obj = PortalLoginPage(email, password)
 obj.login_confirm()
