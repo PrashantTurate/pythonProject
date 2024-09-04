@@ -1,3 +1,5 @@
+''' Encapsulation - Hide the data members(class variables, instance variables) by using only the methods '''
+
 class Car:
     model = None
     name = None
