@@ -7,6 +7,7 @@ class Person:
         self.occupation = input("Enter your occupation: ")
 
     def person_details(self):
+        print("Person details are below:")
         print(f"Name is {self.name}\n Age is {self.age}\n Phone is {self.phone}\n occupation is {self.occupation}")
 
 # Create an Object
