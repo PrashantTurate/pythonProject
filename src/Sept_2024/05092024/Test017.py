@@ -13,6 +13,7 @@ class Myclass:
     a = 25
     _c = 20
     __d = 45
+    print(__d)
     college = "ABC"
     pramod =  "TTA"
     __pramod_bank =  100000000000
