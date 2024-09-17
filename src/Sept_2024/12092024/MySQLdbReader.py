@@ -1,3 +1,3 @@
 
 def readMySQlDB():
-    print("I am reading database")
+    print("I am reading the database")
